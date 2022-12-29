@@ -3,9 +3,22 @@
 
 .button {
 	display: inline-flex;
-	padding: 0px 0px;
+	align-items: center;
+	column-gap: rem(27);
+	padding: rem(12) rem(16);
+	font-weight: 400;
+	color: #fff;
+	background-color: $accentColor;
+	border-radius: rem(5);
+	line-height: math.div(24, 16);
+	transition: all 0.3s ease 0s;
+	svg {
+		fill: transparent;
+		stroke: #fff;
+	}
 	@media (any-hover: hover) {
 		&:hover {
+			background-color: #67b310;
 		}
 	}
 	&._fw {
