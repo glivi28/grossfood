@@ -1,3 +1,44 @@
 //====================================================================================================
-
+.hero {
+	position: relative;
+	padding-top: rem(200);
+	padding-bottom: rem(417);
+	background-image: url("@img/header-bg.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	// .hero__container
+	&__container {
+	}
+	// .hero__content
+	&__content {
+		max-width: rem(560);
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	// .hero__logo
+	&__logo {
+		max-width: rem(370);
+		margin: 0 auto;
+		margin-bottom: rem(35);
+	}
+	// .hero__title
+	&__title {
+		margin-bottom: rem(30);
+		font-weight: 700;
+		font-size: rem(24);
+		line-height: 150%;
+		text-align: center;
+		color: $accentColor;
+	}
+	// .hero__button
+	&__button {
+		font-weight: 700;
+	}
+}
+.visuallyhidden {
+}
+.button {
+}
 //====================================================================================================

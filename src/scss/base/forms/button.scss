@@ -4,6 +4,7 @@
 .button {
 	display: inline-flex;
 	align-items: center;
+	justify-content: center;
 	column-gap: rem(27);
 	padding: rem(12) rem(16);
 	font-weight: 400;
@@ -12,16 +13,18 @@
 	border-radius: rem(5);
 	line-height: math.div(24, 16);
 	transition: all 0.3s ease 0s;
+	text-align: center;
 	svg {
 		fill: transparent;
 		stroke: #fff;
 	}
 	@media (any-hover: hover) {
 		&:hover {
-			background-color: #67b310;
+			// background-color: #67b310;
+			background-color: #5d951e;
 		}
 	}
-	&._fw {
+	&_fw {
 		width: 100%;
 	}
 }
